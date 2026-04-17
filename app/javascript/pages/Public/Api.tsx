@@ -9,7 +9,7 @@ import {
   UpdateCustomField,
   DeleteCustomField,
 } from "$app/components/ApiDocumentation/Endpoints/CustomFields";
-import { FilesOverview, PresignFile, CompleteFile, AttachFile } from "$app/components/ApiDocumentation/Endpoints/Files";
+import { FilesOverview, PresignFile, CompleteFile, AbortFile, AttachFile } from "$app/components/ApiDocumentation/Endpoints/Files";
 import {
   VerifyLicense,
   EnableLicense,
@@ -110,6 +110,7 @@ export default function Api() {
                 <FilesOverview />
                 <PresignFile />
                 <CompleteFile />
+                <AbortFile />
                 <AttachFile />
               </ApiResource>
 
